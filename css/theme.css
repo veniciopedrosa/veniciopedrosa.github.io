@@ -1,0 +1,436 @@
+body {
+	color: rgba(255, 255, 255, 0.55);
+	background: #26262d;
+}
+
+.background {
+	background-color: #26262d !important;
+}
+
+.border-line-v:before {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.border-line-h:after {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.lnks:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.lnk,
+.button {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.lnk:before,
+.button:before {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.lnk .arrow:before,
+.button .arrow:before,
+.lnk .arrow:after,
+.button .arrow:after {
+	background: rgba(255, 255, 255, 0.85);
+}
+
+a {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+th {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+td {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+input,
+textarea,
+button {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+button {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.header .top-menu ul li a {
+	color: rgba(255, 255, 255, 0.85);
+	background: #31313a;
+}
+
+.header .top-menu ul li a:before {
+	background: -moz-radial-gradient(right, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(right, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at right, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.header .top-menu ul li a .icon {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+@media (max-width: 1023px) {
+	.header .top-menu {
+		box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+	}
+
+	.header .top-menu ul li a:before {
+		background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+		background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+		background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	}
+
+}
+
+.card-started:before {
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-started .profile {
+	background: #31313a;
+}
+
+.card-started .profile .slide:before,
+.card-started .profile .slide:after {
+	background: #31313a;
+}
+
+.card-started .profile .image img {
+	border-color: #31313a;
+}
+
+.card-started .profile .title {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.card-started .profile .social a .ion,
+.card-started .profile .social a .fab,
+.card-started .profile .social a .fas {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.card-inner {
+	background: #31313a;
+}
+
+.card-inner:before,
+.card-inner:after {
+	background: #31313a;
+}
+
+.content .title {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.content .title:after {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.info-list ul li strong {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.service-items.border-line-v:after {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.service-items .service-item .name {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+@media (max-width: 560px) {
+	.service-items .col:after {
+		background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+		background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+		background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	}
+
+}
+
+.pricing-items .pricing-item .name {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.pricing-items .pricing-item .amount .number {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.pricing-items .pricing-item .amount .dollar,
+.pricing-items .pricing-item .amount .period {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.pricing-items .pricing-item .amount .period {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.pricing-items .pricing-item .feature-list ul li {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.pricing-items .pricing-item .feature-list ul li strong {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.fuct-items .fuct-item .name {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.resume-title .icon,
+.skill-title .icon {
+	background: transparent;
+}
+
+.resume-title .name,
+.skill-title .name {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.resume-items .resume-item .name {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.skills-list ul li .name {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.skills-list ul li .progress {
+	background: #3e4148;
+}
+
+.content.works .filter-menu .f_btn {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.content.works .grid-items.border-line-v:after {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.box-item .desc .name {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.mfp-wrap.popup-box-inline .mfp-close {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.mfp-wrap.popup-box-inline {
+	background: #31313a;
+}
+
+.post-box .blog-detail {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.post-box .blog-content blockquote {
+	color: rgba(255, 255, 255, 0.55);
+	border-left: none;
+}
+
+.post-box .blog-content ul.list-style li {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.post-box .post-comments li:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.post-box .post-comments li .comment-info .name {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.post-box .post-comments li .comment-info .name a {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.post-box .post-comments li .comment-info .name h6 span {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.background.gradient {
+	background: #17171b !important;
+	background: -webkit-linear-gradient(top left, #17171b 0%, #28282f 100%) !important;
+	background: linear-gradient(to bottom right, #17171b 0%, #28282f 100%) !important;
+}
+
+.bg-bubbles li {
+	background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+.background {
+	background-color: rgba(8, 86, 193, 0.4);
+}
+
+.preloader .spinner .double-bounce1,
+.preloader .spinner .double-bounce2 {
+	background: #63ce00;
+}
+
+.lnk:hover,
+.button:hover {
+	color: #63ce00;
+}
+
+.lnk:hover .ion,
+.button:hover .ion {
+	color: #63ce00;
+}
+
+.lnk:hover .arrow:before,
+.button:hover .arrow:before,
+.lnk:hover .arrow:after,
+.button:hover .arrow:after {
+	background: #63ce00;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+	border-bottom: 1px solid #63ce00;
+}
+
+button:hover {
+	border-bottom: 1px solid #63ce00;
+}
+
+.header .top-menu ul li:hover a,
+.header .top-menu ul li.active a {
+	color: #63ce00;
+}
+
+.header .top-menu ul li:hover a .icon,
+.header .top-menu ul li.active a .icon,
+.header .top-menu ul li:hover a .link,
+.header .top-menu ul li.active a .link {
+	color: #63ce00;
+}
+
+.card-started .profile .subtitle {
+	color: #63ce00;
+}
+
+.card-started .profile .social a:hover .ion,
+.card-started .profile .social a:hover .fab,
+.card-started .profile .social a:hover .fas {
+	color: #63ce00;
+}
+
+.service-items .service-item .icon {
+	color: #63ce00;
+	background: -moz-linear-gradient(-45deg, rgba(8, 86, 193, 0.4) 0%, rgba(8, 86, 193, 0.01) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(8, 86, 193, 0.4) 0%, rgba(8, 86, 193, 0.01) 100%);
+	background: linear-gradient(135deg, rgba(8, 86, 193, 0.4) 0%, rgba(8, 86, 193, 0.01) 100%);
+}
+
+.pricing-items .pricing-item .icon {
+	color: #63ce00;
+}
+
+.pricing-items .pricing-item .feature-list ul li strong {
+	background: rgba(8, 86, 193, 0.4);
+}
+
+.fuct-items .fuct-item .icon {
+	color: #63ce00;
+}
+
+.resume-title .icon,
+.skill-title .icon {
+	color: #63ce00;
+}
+
+.resume-items .resume-item.active .date {
+	color: #63ce00;
+}
+
+.resume-items .resume-item.active .date:before {
+	background: #63ce00;
+}
+
+.skills-list ul li .progress .percentage {
+	background: #63ce00;
+}
+
+.content.works .filter-menu .f_btn.active {
+	color: #63ce00;
+}
+
+.box-item .image .info:before {
+	background: -moz-linear-gradient(-45deg, rgba(8, 86, 193, 0.4) 0%, rgba(8, 86, 193, 0.01) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(8, 86, 193, 0.4) 0%, rgba(8, 86, 193, 0.01) 100%);
+	background: linear-gradient(135deg, rgba(8, 86, 193, 0.4) 0%, rgba(8, 86, 193, 0.01) 100%);
+}
+
+.post-box .blog-content blockquote {
+	border-left: 2px solid #63ce00;
+}
+
+.post-box .blog-content ul.list-style li:before {
+	background: #63ce00;
+}
+
+.post-box .post-comments li .comment-info .name h6 {
+	color: #63ce00;
+}
+
+.background.gradient {
+	background: #50a3a2;
+	background: -webkit-linear-gradient(top left, #48b1bf 0%, #63ce00 100%);
+	background: linear-gradient(to bottom right, #48b1bf 0%, #63ce00 100%);
+}
+
